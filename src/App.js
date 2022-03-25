@@ -1,11 +1,12 @@
-
+import Pricing from './pricing/Pricing';
 import './App.css';
 
 function App() {
+
   return (
-   <main>
-       
-   </main>
+   <>
+     <Pricing />
+   </>
 
   );
 }
