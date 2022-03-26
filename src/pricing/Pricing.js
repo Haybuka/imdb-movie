@@ -4,7 +4,7 @@ function Pricing() {
   return (
     <main className=''>
        <div className='Price-main'>
-            <div className='h-60 img-div'> </div>
+            <div className='md:h-60 img-div h-52'> </div>
              <article className='px-6'>
                  <Heading />
                  <Plan />
@@ -18,7 +18,7 @@ function Pricing() {
 export default Pricing
 
 const Heading =() =>(
-    <header className='text-center py-10'>
+    <header className='text-center py-6 md:py-10'>
          <h3 className='Heading-h3'>Order Summary</h3>
          <p className='my-4 text-primary-200'>
              You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!.
@@ -43,7 +43,7 @@ const Plan = () => (
 )
 
 const BtnGroup = () => (
-    <article className='my-10'>
+    <article className='my-6 md:my-10'>
         <button className='Btn'>Proceed to Payment</button>
         <p className='Btn-cancel'>Cancel Order</p>
     </article>
